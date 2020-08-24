@@ -9,13 +9,15 @@
 const input = require('readline-sync')
 
 function calc(a, b, c) {
-    if(b === "" && c === "")
+    if(b === "" && c === "") {
         return a
-            if(c === "")
-                return a + b
-                    if(a === "" && b === "" && c === "")
-                        return "Não recebeu parâmetro"
-    return (a+b)/c
+    }else if(c === "") {
+            return a + b
+        }else if(a === "" && b === "" && c === "") {
+                return "Não recebeu parâmetro"
+            }else {
+                return (a+b)/c
+            }
 }
 
 const num1 = parseInt(input.question("Digite o 1º nº: "))
