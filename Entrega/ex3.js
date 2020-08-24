@@ -2,3 +2,7 @@
 
 const input = require('readline-sync')
 
+const metros = parseFloat(input.question("Digite o valor em metros: "))
+const milimetros = (x) => x*1000 //Arrow function
+
+console.log(`${metros} metros corresponde a ${milimetros(metros)} milímetros.`)
