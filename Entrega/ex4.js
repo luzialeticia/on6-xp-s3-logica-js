@@ -5,3 +5,21 @@
     Se dois parâmetros forem passados, retorne a soma dos dois parâmetros.
     Se todos os parâmetros forem passados, retorne a soma do primeiro com o segundo, e o resultado dividido pelo terceiro.
     Se nenhum argumento for passado, retorne "não recebeu parâmetro" */
+
+const input = require('readline-sync')
+
+function calc(a, b, c) {
+    if(b === "" && c === "")
+        return a
+            if(c === "")
+                return a + b
+                    if(a === "" && b === "" && c === "")
+                        return "Não recebeu parâmetro"
+    return (a+b)/c
+}
+
+const num1 = parseInt(input.question("Digite o 1º nº: "))
+const num2 = parseInt(input.question("Digite o 2º nº: "))
+const num3 = parseInt(input.question("Digite o 3º nº: "))
+
+console.log(`${calc(num1, num2, num3)}`)
