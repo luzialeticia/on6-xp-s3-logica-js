@@ -1,0 +1,14 @@
+{
+  "name": "entrega",
+  "version": "1.0.0",
+  "description": "## Instruções para entrega: 1. Entre no repositório da semana no site da reprograma",
+  "main": "ex1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
