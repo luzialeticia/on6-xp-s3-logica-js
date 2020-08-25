@@ -16,7 +16,6 @@ const input = require('readline-sync')
 const num1 = parseInt(input.question("Digite o 1º nº: "))
 const num2 = parseInt(input.question("Digite o 2º nº: "))
 const num3 = parseInt(input.question("Digite o 3º nº: "))
-    
 
 if(!num2 && !num3) {
     console.log(num1)
