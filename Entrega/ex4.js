@@ -8,13 +8,13 @@
 
     
 function calc(a, b, c) {
-    if(!b && !c) {
-        return a
-        }else if(!c) {
-            return a+b
-            }else if(!a && !b && !c) {
-                return "Não recebeu parâmetro"
-                }else {
+    if(!a && !b && !c) {
+        return `Não recebeu parâmetro`
+    }   else if(!b && !c) {
+            return a
+        }   else if(!c) {
+                return a+b
+            }   else {
                     return (a+b)/c
                 }
 }
