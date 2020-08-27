@@ -12,6 +12,8 @@ Lojas Quase Dois - Tabela de preços
 ...
 50 - R$ 99.50 */
 
+console.log("Lojas Quase Dois - Tabela de preços:")
+
 for(let i = 1; i <= 50; i++) {
     let result = (i*1.99).toFixed(2)
     console.log(`${i} - ${result}`)
