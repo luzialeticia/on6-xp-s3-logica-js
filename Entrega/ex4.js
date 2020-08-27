@@ -6,7 +6,6 @@
     Se todos os parâmetros forem passados, retorne a soma do primeiro com o segundo, e o resultado dividido pelo terceiro.
     Se nenhum argumento for passado, retorne "não recebeu parâmetro" */
 
-    
 function calc(a, b, c) {
     if(!a && !b && !c) {
         return `Não recebeu parâmetro`
