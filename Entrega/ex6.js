@@ -8,9 +8,11 @@ preços de 1 até 50 produtos, conforme o exemplo abaixo:
 Lojas Quase Dois - Tabela de preços
 
 1 - R$ 1.99
-
 2 - R$ 3.98
-
 ...
-
 50 - R$ 99.50 */
+
+for(let i = 1; i <= 50; i++) {
+    let result = (i*1.99).toFixed(2)
+    console.log(`${i} - ${result}`)
+}
