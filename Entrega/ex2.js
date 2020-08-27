@@ -8,4 +8,4 @@ function tempCelsius(x) {
 
 const tempFahrenheit = parseFloat(input.question("Digite a temperatura em Fahrenheit: "))
 
-console.log(`${tempFahrenheit}°C corresponde a ${tempCelsius(tempFahrenheit)}°F.`)
+console.log(`${tempFahrenheit}°F corresponde a ${(tempCelsius(tempFahrenheit)).toFixed(1)}°C.`)
