@@ -3,7 +3,7 @@ Por exemplo, recebendo o número 5, a função deve retornar 15, ou seja, o resu
 
 function somaNumero(x) {
     let soma = 0
-    for (let i = 0; i <= x; i++) {
+    for (let i = 1; i <= x; i++) {
         soma += i
     }
     return soma
