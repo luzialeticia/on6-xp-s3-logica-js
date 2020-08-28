@@ -16,5 +16,5 @@ console.log("Lojas Quase Dois - Tabela de preços:")
 
 for(let i = 1; i <= 50; i++) {
     let result = (i*1.99).toFixed(2)
-    console.log(`${i} - ${result}`)
+    console.log(`${i} - R$ ${result}`)
 }
